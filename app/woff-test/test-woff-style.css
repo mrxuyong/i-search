@@ -1,0 +1,30 @@
+
+body {
+  background-color: #f88f8f;
+}
+
+@font-face {
+  font-family: 'text';  /* project id 41621 */
+  src: url('https://static.tianyancha.com/web-require-js/public/fonts/tic-3a4ccf8ec3.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'number';  /* project id 41621 */
+  src: url('https://static.tianyancha.com/fonts-styles/fonts/fe/fe02a7b7/tyc-num.woff') format('woff')
+}
+
+.text {
+  font-family:"text" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.num {
+  font-family:"number" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
