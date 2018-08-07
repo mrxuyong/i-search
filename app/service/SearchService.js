@@ -167,11 +167,8 @@ class SearchService extends Service {
 
       const $ = cheerio.load(tempHtml);
 
-      // console.log('searchServiceByQCC()--7.0 --$(\'div\'):\n', $('div'));
+      console.log('searchServiceByQCC()--7.0 --$(\'.ma_h1\'):\n', $('.ma_h1'));
       // $('div').toArray().map((value, index) => console.log('searchServiceByQCC()--7 --index:', index, ', value:', value));
-
-      console.log('searchServiceByQCC()--8.0 --$(\'.search-result-single\').toArray():\n', $('.search-result-single ').toArray());
-      $('.search-result-single ').toArray().map((value, index) => console.log('searchServiceByQCC()--8 --index:', index, ', value:', value));
 
       return resultData || [];
     } catch (error) {
